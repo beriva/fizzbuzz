@@ -13,6 +13,10 @@ var fizzbuzz = function(x) {
   } else if (x % 3 === 0 || x % 5 === 0) {
     console.log("fizzbuzz");
   }
+  if (x % 3 === 0 && x % 5 === 0)
+  {
+    consol.log("fizzbuzz")
+  }
 }
 
 module.exports = fizzbuzz;
